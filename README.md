@@ -1,6 +1,6 @@
 # :bulb: Sistem Pendukung Keputusan
 
-Repository ini berisi projek aplikasi berbasis web yang menerapkan beberapa metode dalam SPK menggunakan bahasa pemrograman javascript. [Klik disini](...) untuk melihat demo aplikasi.
+Repository ini berisi projek aplikasi berbasis web yang menerapkan beberapa metode dalam SPK menggunakan bahasa pemrograman javascript. [Klik disini](https://espeka.vercel.app) untuk melihat demo aplikasi.
 
 ## :books: Prasyarat
 
