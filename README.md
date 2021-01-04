@@ -14,10 +14,10 @@ Untuk menginstall aplikasi ini, ikuti langkah berikut:
 
 ```sh
 # clone this repository
-git clone ...
+git clone https://github.com/kunkoder/espeka.git
 
 # change working directory
-cd ...
+cd espeka
 ```
 
 ## :open_file_folder: Struktur Projek
@@ -55,4 +55,4 @@ Untuk menjalankan aplikasi ini, ada beberapa opsi yang dapat dilakukan:
 
 ## :loudspeaker: Lisensi
 
-Aplikasi ini dibawah lisensi [MIT License](...).
+Aplikasi ini dibawah lisensi [MIT License](https://github.com/kunkoder/espeka/blob/main/LICENSE).
