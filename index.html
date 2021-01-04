@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home - Espeka</title>
+    <link rel="icon" href="img/icon.ico" type="image/x-icon" />
+
+    <!-- Core CSS Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/atlantis.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body data-background-color="custom" custom-background="img/bg-math.png"
+    style="background-attachment: fixed; background-position: center;">
+    <div class="wrapper horizontal-layout-3 fullwidth-style">
+
+        <!-- Header -->
+        <div class="main-header no-box-shadow" data-background-color="transparent">
+            <div class="nav-top">
+                <div class="container d-flex flex-row">
+                    <a href="home-index.html" class="logo logo-fixed d-flex align-items-center">
+                        <img src="img/logo-white.png" alt="navbar brand" class="navbar-brand mt-3" height="40">
+                        <img src="img/logo-secondary.png" alt="navbar brand"
+                            class="navbar-brand navbar-brand-logo-fixed" height="40">
+                    </a>
+                    <nav class="navbar navbar-header navbar-expand-lg p-0" />
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Panel -->
+        <div class="main-panel">
+            <div class="container">
+                <div class="page-inner">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card">
+                                <div class="card-header text-center">
+                                    <h3>Sistem Penunjang Keputusan</h3>
+                                    <p class="card-category">
+                                        Multiple Attribute Decision Making
+                                    </p>
+                                </div>
+                                <div class="card-body">
+                                    <form id="in-form">
+                                        <div class="form-group row mt-2">
+                                            <label for="title" class="col-form-label col-md-1">Method</label>
+                                            <div class="col-md-3">
+                                                <select name="method" class="form-control" id="method">
+                                                    <option>BAYES</option>
+                                                    <option>CPI</option>
+                                                    <option>MPE</option>
+                                                    <option>SAW</option>
+                                                    <option>TOPSIS</option>
+                                                    <option>WP</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row mt-2">
+                                            <div class="col btn-group text-white mt-2" role="group">
+                                                <a class="btn btn-secondary" href id="del-row"><i
+                                                        class="fas fa-minus"></i></a>
+                                                <a class="btn btn-border btn-secondary empty-button">Alternative</a>
+                                                <a class="btn btn-secondary" href id="add-row"><i
+                                                        class="fas fa-plus"></i></a>
+                                            </div>
+                                            <div class="text-right">
+                                                <div class="col btn-group text-white mt-2" role="group">
+                                                    <a class="btn btn-secondary" href id="del-col"><i
+                                                            class="fas fa-minus"></i></a>
+                                                    <a class="btn btn-border btn-secondary empty-button">Criteria</a>
+                                                    <a class="btn btn-secondary" href id="add-col"><i
+                                                            class="fas fa-plus"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="table-responsive">
+                                                    <table
+                                                        class="table table-head-bg-secondary table-bordered-bd-secondary mt-3"
+                                                        id="in-table">
+                                                        <thead>
+                                                            <tr class="text-center">
+                                                                <th style="min-width: 8px">No</th>
+                                                                <th style="min-width: 250px">Alternative</th>
+                                                                <th style="min-width: 150px">C1</th>
+                                                                <th style="min-width: 150px">C2</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="text-center">1</td>
+                                                                <td>
+                                                                    <div class="form-group">
+                                                                        <input type="text" name="A1" value="A1"
+                                                                            class="form-control" required>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="form-group">
+                                                                        <input type="text" name="R1C1" value="0"
+                                                                            class="form-control" required>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="form-group">
+                                                                        <input type="text" name="R1C2" value="0"
+                                                                            class="form-control" required>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-center">2</td>
+                                                                <td>
+                                                                    <div class="form-group">
+                                                                        <input type="text" name="A2" value="A2"
+                                                                            class="form-control" required>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="form-group">
+                                                                        <input type="text" name="R2C1" value="0"
+                                                                            class="form-control" required>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="form-group">
+                                                                        <input type="text" name="R2C2" value="0"
+                                                                            class="form-control" required>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th colspan="2"
+                                                                    class="text-center bg-secondary text-white">
+                                                                    Weight
+                                                                </th>
+                                                                <td>
+                                                                    <div class="form-group">
+                                                                        <input type="text" name="W1" value="0"
+                                                                            class="form-control" required>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="form-group">
+                                                                        <input type="text" name="W2" value="0"
+                                                                            class="form-control" required>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <th colspan="2"
+                                                                    class="text-center bg-secondary text-white">Cost
+                                                                </th>
+                                                                <th>
+                                                                    <div class="text-center pb-1 mt-1">
+                                                                        <input type="checkbox" name="C1" class="switch"
+                                                                            id="C1">
+                                                                        <label class="switch-label" for="C1"></label>
+                                                                    </div>
+                                                                </th>
+                                                                <th>
+                                                                    <div class="text-center pb-1 mt-1">
+                                                                        <input type="checkbox" name="C2" class="switch"
+                                                                            id="C2">
+                                                                        <label class="switch-label" for="C2"></label>
+                                                                    </div>
+                                                                </th>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md mt-3">
+                                                <input type="checkbox" name="NW" id="switch" class="switch">
+                                                <label for="switch" class="switch-label"><b>Normalize Weight</b></label>
+                                            </div>
+                                            <div class="col-md mt-2">
+                                                <button type="submit" class="btn btn-secondary col-12">Process</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="accordion accordion-secondary mt-5">
+                                                <div class="card">
+                                                    <div class="card-header collapsed" id="headingOne"
+                                                        data-toggle="collapse" data-target="#collapseOne"
+                                                        aria-expanded="false" aria-controls="collapseOne">
+                                                        <div class="span-icon">
+                                                            <i class="fas fa-chart-bar"></i>
+                                                        </div>
+                                                        <div class="span-title">Result</div>
+                                                    </div>
+                                                    <div id="collapseOne" class="collapse collapse-rank"
+                                                        aria-labelledby="headingOne" data-parent="#accordion">
+                                                        <div class="card-body">
+                                                            <div class="table-responsive">
+                                                                <table
+                                                                    class="table table-head-bg-secondary table-bordered-bd-secondary mt-3"
+                                                                    id="out-table">
+                                                                    <thead>
+                                                                        <tr class="text-center">
+                                                                            <th style="min-width: 8px">Rank</th>
+                                                                            <th style="min-width: 250px">Alternative
+                                                                            </th>
+                                                                            <th style="min-width: 170px">Value</th>
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody></tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="card-header collapsed" id="headingTwo"
+                                                        data-toggle="collapse" data-target="#collapseTwo"
+                                                        aria-expanded="false" aria-controls="collapseTwo">
+                                                        <div class="span-icon">
+                                                            <i class="fas fa-calculator"></i>
+                                                        </div>
+                                                        <div class="span-title">
+                                                            Manual
+                                                        </div>
+                                                    </div>
+                                                    <div id="collapseTwo" class="collapse collapse-manual"
+                                                        aria-labelledby="headingTwo" data-parent="#accordion">
+                                                        <div class="card-body" id="manual"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="text-center text-white mt-2">
+            <h6>©
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>, made with <i class="fa fa-heart heart text-danger"></i> by <a href="https://github.com/kunkoder">kunkoder</a>
+            </h6>
+        </div>
+    </div>
+
+    <!-- Core JS Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/fontawesome.min.js"></script>
+    <script src="js/atlantis.min.js"></script>
+
+    <!-- Espeka -->
+    <script src="js/listener.js"></script>
+    <script src="js/solver.js"></script>
+</body>
+
+</html>
