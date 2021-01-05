@@ -32,8 +32,8 @@ cd espeka
 
 ```text
 ├── css
-│    ├── atlantis.min.css
-│    ├── bootstrap.min.css
+│   ├── atlantis.min.css
+│   ├── bootstrap.min.css
 │   └── custom.css
 ├── img
 │    ├── bg-math.png
