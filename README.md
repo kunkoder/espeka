@@ -1,13 +1,13 @@
-# :octocat: Sistem Pendukung Keputusan
+# :bulb: Sistem Pendukung Keputusan
 
-Repository ini berisi projek aplikasi berbasis web yang menerapkan beberapa metode SPK menggunakan bahasa pemrograman javascript. [Klik disini](https://espeka.vercel.app) untuk melihat demo aplikasi.
-Metode SPK yang diterapkan pada aplikasi ini diantaranya:
+Repository ini berisi projek aplikasi berbasis web yang menerapkan beberapa metode SPK menggunakan bahasa pemrograman javascript. Metode SPK yang diterapkan pada aplikasi ini diantaranya:
 * Bayes
 * CPI
 * MPE
 * SAW
 * TOPSIS
 * WP
+[Klik disini](https://espeka.vercel.app) untuk melihat demo aplikasi.
 
 ## :package: Prasyarat
 
@@ -30,7 +30,7 @@ cd espeka
 
 ## :open_file_folder: Struktur Projek
 
-```text
+```bash
 ├── css
 │   ├── atlantis.min.css
 │   ├── bootstrap.min.css
