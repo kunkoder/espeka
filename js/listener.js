@@ -252,14 +252,12 @@ form.addEventListener('submit', function (e) {
     document.querySelector('#manual').innerHTML = manual;
 });
 
-if ('serviceWorker' in navigator) {
-    addEventListener('load', function () {
-        navigator.serviceWorker.register('sw.js').then(function (r) {
-            console.log('ServiceWorker registration successfull with scope: ', r.scope);
-        }, function (e) {
-            console.log('ServiceWorker registration failed: ', e);
-        });
-    });
-}
-
-console.log('hello');
+// if ('serviceWorker' in navigator) {
+//     addEventListener('load', function () {
+//         navigator.serviceWorker.register('sw.js').then(function (r) {
+//             console.log('ServiceWorker registration successfull with scope: ', r.scope);
+//         }, function (e) {
+//             console.log('ServiceWorker registration failed: ', e);
+//         });
+//     });
+// }
