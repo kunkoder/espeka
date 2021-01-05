@@ -1,4 +1,4 @@
-# :bulb: Sistem Pendukung Keputusan
+# :octocat: Sistem Pendukung Keputusan
 
 Repository ini berisi projek aplikasi berbasis web yang menerapkan beberapa metode SPK menggunakan bahasa pemrograman javascript. [Klik disini](https://espeka.vercel.app) untuk melihat demo aplikasi.
 Metode SPK yang diterapkan pada aplikasi ini diantaranya:
@@ -9,7 +9,7 @@ Metode SPK yang diterapkan pada aplikasi ini diantaranya:
 * TOPSIS
 * WP
 
-## :books: Prasyarat
+## :package: Prasyarat
 
 Sebelum memulai, pastikan telah terinstall beberapa tools:
 * Text editor.
