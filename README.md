@@ -5,8 +5,9 @@ Repository ini berisi projek aplikasi berbasis web yang menerapkan beberapa meto
 ## :books: Prasyarat
 
 Sebelum memulai, pastikan telah terinstall beberapa tools:
-* Web browser.
 * Text editor.
+* Web browser.
+* Web server
 
 ## :cd: Menginstall Aplikasi
 
@@ -24,22 +25,22 @@ cd espeka
 
 ```text
 ├── css
-│   ├── atlantis.min.css
-│   ├── bootstrap.min.css
+│    ├── atlantis.min.css
+│    ├── bootstrap.min.css
 │   └── custom.css
 ├── img
-│   ├── bg-math.png
-│   ├── icon.ico
-│   ├── logo-secondary.png
-│   └── logo-white.png
+│    ├── bg-math.png
+│    ├── icon.ico
+│    ├── logo-secondary.png
+│    └── logo-white.png
 ├── js
-│   ├── atlantis.min.js
-│   ├── bootstrap.min.js
-│   ├── fontawesome.min.js
-│   ├── jquery.min.js
-│   ├── listener.js
-│   ├── popper.min.js
-│   └── solver.js.js
+│    ├── atlantis.min.js
+│    ├── bootstrap.min.js
+│    ├── fontawesome.min.js
+│    ├── jquery.min.js
+│    ├── listener.js
+│    ├── popper.min.js
+│    └── solver.js.js
 ├── index.html
 └── sw.js
 ```
@@ -49,7 +50,8 @@ cd espeka
 ## :computer: Menjalankan Aplikasi
 
 Untuk menjalankan aplikasi ini, ada beberapa opsi yang dapat dilakukan:
-* Menjalankan aplikasi menggunakan php server. Jalankan perintah `php -S localhost:8000` lalu buka [web browser](http://localhost:8000).
+* Menjalankan aplikasi menggunakan web server. 
+    * Menggunakan web server php. Jalankan perintah `php -S localhost:8000` lalu buka [web browser](http://localhost:8000).
 * Buka file `index.html` .
 >Note: Menjalankan aplikasi hanya dengan membuka file `index.html` tidak dapat mengaktifkan service worker.
 
