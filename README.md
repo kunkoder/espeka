@@ -7,6 +7,7 @@ Repository ini berisi projek aplikasi berbasis web yang menerapkan beberapa meto
 * SAW
 * TOPSIS
 * WP
+
 [Klik disini](https://espeka.vercel.app) untuk melihat demo aplikasi.
 
 ## :package: Prasyarat
@@ -20,7 +21,7 @@ Sebelum memulai, pastikan telah terinstall beberapa tools:
 
 Untuk menginstall aplikasi ini, ikuti langkah berikut:
 
-```sh
+```bash
 # clone this repository
 git clone https://github.com/kunkoder/espeka.git
 
@@ -30,7 +31,7 @@ cd espeka
 
 ## :open_file_folder: Struktur Projek
 
-```bash
+```text
 ├── css
 │   ├── atlantis.min.css
 │   ├── bootstrap.min.css
