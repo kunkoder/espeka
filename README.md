@@ -58,7 +58,7 @@ cd espeka
 
 Untuk menjalankan aplikasi ini, ada beberapa opsi yang dapat dilakukan:
 * Menjalankan aplikasi menggunakan web server. 
- * Menggunakan web server php. Jalankan perintah `php -S localhost:8000` lalu buka [web browser](http://localhost:8000).
+  * Menggunakan web server php. Jalankan perintah `php -S localhost:8000` lalu buka [web browser](http://localhost:8000).
 * Membuka file `index.html`.
 >Note: Menjalankan aplikasi hanya dengan membuka file `index.html` tidak dapat mengaktifkan service worker.
 
