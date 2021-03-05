@@ -13,8 +13,8 @@ Repository ini berisi projek aplikasi berbasis web yang menerapkan beberapa meto
 ## :package: Prasyarat
 
 Sebelum memulai, pastikan telah terinstall beberapa tools:
-* Text editor.
-* Web browser.
+* Text editor
+* Web browser
 * Web server
 
 ## :cd: Menginstall Aplikasi
