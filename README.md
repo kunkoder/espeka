@@ -1,7 +1,6 @@
 # :bulb: Sistem Pendukung Keputusan
 
-Repository ini berisi projek aplikasi berbasis web yang menerapkan beberapa metode SPK menggunakan bahasa pemrograman javascript. [Klik disini](https://espeka.vercel.app) untuk melihat demo aplikasi.
-Metode SPK yang diterapkan pada aplikasi ini diantaranya:
+Repository ini berisi projek aplikasi berbasis web yang menerapkan beberapa metode SPK menggunakan bahasa pemrograman javascript. Metode SPK yang diterapkan pada aplikasi ini diantaranya:
 * Bayes
 * CPI
 * MPE
@@ -9,18 +8,20 @@ Metode SPK yang diterapkan pada aplikasi ini diantaranya:
 * TOPSIS
 * WP
 
-## :books: Prasyarat
+[Klik disini](https://espeka.vercel.app) untuk melihat demo aplikasi.
+
+## :package: Prasyarat
 
 Sebelum memulai, pastikan telah terinstall beberapa tools:
-* Text editor.
-* Web browser.
+* Text editor
+* Web browser
 * Web server
 
 ## :cd: Menginstall Aplikasi
 
 Untuk menginstall aplikasi ini, ikuti langkah berikut:
 
-```sh
+```bash
 # clone this repository
 git clone https://github.com/kunkoder/espeka.git
 
@@ -58,10 +59,10 @@ cd espeka
 
 Untuk menjalankan aplikasi ini, ada beberapa opsi yang dapat dilakukan:
 * Menjalankan aplikasi menggunakan web server. 
-    * Menggunakan web server php. Jalankan perintah `php -S localhost:8000` lalu buka [web browser](http://localhost:8000).
+  * Menggunakan web server php. Jalankan perintah `php -S localhost:8000` lalu buka [web browser](http://localhost:8000).
 * Membuka file `index.html`.
 >Note: Menjalankan aplikasi hanya dengan membuka file `index.html` tidak dapat mengaktifkan service worker.
 
-## :loudspeaker: Lisensi
+## :balance_scale: Lisensi
 
 [MIT License](https://github.com/kunkoder/espeka/blob/main/LICENSE)
