@@ -64,4 +64,4 @@ Untuk menjalankan aplikasi ini, ada beberapa opsi yang dapat dilakukan:
 
 ## :loudspeaker: Lisensi
 
-Aplikasi ini dibawah lisensi [MIT License](https://github.com/kunkoder/espeka/blob/main/LICENSE).
+[MIT License](https://github.com/kunkoder/espeka/blob/main/LICENSE)
