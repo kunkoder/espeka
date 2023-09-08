@@ -63,6 +63,11 @@ Untuk menjalankan aplikasi ini, ada beberapa opsi yang dapat dilakukan:
 * Membuka file `index.html`.
 >Note: Menjalankan aplikasi hanya dengan membuka file `index.html` tidak dapat mengaktifkan service worker.
 
+## :eyes: Preview
+
+**Home**
+![alt text](https://raw.githubusercontent.com/kunkoder/espeka/main/img/preview.png)
+
 ## :balance_scale: Lisensi
 
 [MIT License](https://github.com/kunkoder/espeka/blob/main/LICENSE)
